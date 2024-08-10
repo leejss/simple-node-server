@@ -18,7 +18,8 @@
   },
   "scripts": {
     "dev": "tsx src/index.ts",
-    "build": "unbuild"
+    "build": "unbuild",
+    "container:local": "chmod +x ./scripts/local.sh && ./scripts/local.sh"
   },
   "keywords": [],
   "author": "",
